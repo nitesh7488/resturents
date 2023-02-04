@@ -1,0 +1,45 @@
+.top_cat
+{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+
+    
+}
+.top_cat_pro
+{
+    border: px solid red;
+    width: 370px;
+    height: 265px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+    transition: transform 1s;
+
+}
+.top_cat_pro:hover
+{
+   transform: scale(1.05) ;
+}
+.top_cat_pro img
+{
+    width: 100%;
+}
+.checked
+{
+  color: orange;  
+}
+.star
+{
+    border: px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title p{
+    text-align: center;
+    font-size: 17px;
+}

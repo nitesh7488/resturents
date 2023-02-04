@@ -1,0 +1,61 @@
+#outerbox
+{
+	z-index: -100;
+  width:1513px;
+  height:700px;
+  overflow:hidden;
+}
+#sliderbox
+{
+	position:relative;
+	width:6052px;
+	animation:slide 20s infinite;
+	
+}
+#sliderbox img
+{
+	width: 1513px;
+	float:left;
+}
+@keyframes slide
+{
+	0%
+	{
+		left:0px;
+	}
+	20%
+	{
+		left:0px;
+	}
+	25%
+	{
+		left:-1513px;
+	}
+	45%
+	{
+		left:-1513px;
+	}
+	50%
+	{
+		left:-3026px;
+	}
+	70%
+	{
+		left:-3026px;
+	}
+	75%
+	{
+		left:-4539px;
+	}
+	95%
+	{
+		left:-4539px;
+	}
+	100%
+	{
+		left:-6052px;
+	}
+}
+	
+
+	
